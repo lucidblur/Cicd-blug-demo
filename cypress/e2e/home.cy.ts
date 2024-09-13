@@ -3,5 +3,8 @@ describe("The Home Page", () => {
     cy.visit("/");
   });
 
-  // Add the test for the link to the Hobbies page here
+  describe("The Hobbies Page", () => {
+  it("loads", () => {
+    cy.visit("/hobbies");
+  });
 });
